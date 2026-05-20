@@ -17,7 +17,7 @@ Each skill is its own directory containing a `SKILL.md` (with YAML frontmatter �
 
 ## Install
 
-For my own dev loop — symlink every shippable skill into `~/.claude/skills/`:
+Symlink every shippable skill into `~/.claude/skills/`:
 
 ```bash
 ./scripts/link-skills.sh
@@ -28,6 +28,28 @@ List every `SKILL.md` in the repo:
 ```bash
 ./scripts/list-skills.sh
 ```
+
+## Usage
+
+Skills load automatically when Claude Code starts (via `.claude-plugin/plugin.json`). Each skill activates two ways:
+
+**Slash command** — type the skill name directly:
+
+```
+/debug-mantra
+/post-mortem
+/scrutinize
+/management-talk
+```
+
+**Natural language** — Claude detects the intent and activates the skill automatically. Each skill's `SKILL.md` frontmatter defines what phrases trigger it. Examples:
+
+- Paste a stack trace → `debug-mantra` activates
+- "Write the RCA for this fix" → `post-mortem` activates
+- "Review this PR" → `scrutinize` activates
+- "Send a Slack update for management" → `management-talk` activates
+
+See each skill's `SKILL.md` for the full trigger list and operating rules.
 
 ## Reference
 
