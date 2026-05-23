@@ -1,7 +1,6 @@
 {
   "name": "9arm-skills",
-  "version": "1.0.0",
-  "description": "Agent skills for Claude Code — engineering and productivity workflows",
+"description": "Agent skills for Claude Code — engineering and productivity workflows",
   "author": {
     "name": "thananon",
     "url": "https://github.com/thananon"
