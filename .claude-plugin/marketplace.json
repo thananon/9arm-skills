@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "9arm-skills",
-      "source": ".",
+      "source": { "source": "github", "repo": "thananon/9arm-skills" },
       "description": "Agent skills for Claude Code — engineering and productivity workflows",
       "author": {
         "name": "thananon",
