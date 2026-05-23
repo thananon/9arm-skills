@@ -1,0 +1,23 @@
+{
+  "name": "9arm-skills",
+  "owner": {
+    "name": "thananon",
+    "url": "https://github.com/thananon"
+  },
+  "metadata": {
+    "description": "Agent skills for Claude Code — engineering and productivity workflows"
+  },
+  "plugins": [
+    {
+      "name": "9arm-skills",
+      "source": { "source": "github", "repo": "thananon/9arm-skills" },
+      "description": "Agent skills for Claude Code — engineering and productivity workflows",
+      "author": {
+        "name": "thananon",
+        "url": "https://github.com/thananon"
+      },
+      "license": "MIT",
+      "keywords": ["skills", "engineering", "productivity", "debugging", "post-mortem"]
+    }
+  ]
+}
