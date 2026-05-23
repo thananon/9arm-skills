@@ -17,7 +17,24 @@ Each skill is its own directory containing a `SKILL.md` (with YAML frontmatter �
 
 ## Install
 
-For my own dev loop — symlink every shippable skill into `~/.claude/skills/`:
+### Via Claude Code marketplace (recommended)
+
+```
+/plugin marketplace add thananon/9arm-skills
+/plugin install 9arm-skills@9arm-skills
+```
+
+### Manual (git clone)
+
+```bash
+git clone https://github.com/thananon/9arm-skills ~/.claude/plugins/9arm-skills
+```
+
+Then enable it in Claude Code settings → Plugins.
+
+### Dev loop (symlink)
+
+For local development — symlink every shippable skill into `~/.claude/skills/`:
 
 ```bash
 ./scripts/link-skills.sh
