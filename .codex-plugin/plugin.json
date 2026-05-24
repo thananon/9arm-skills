@@ -1,0 +1,36 @@
+{
+  "name": "9arm-skills",
+  "version": "0.1.0",
+  "description": "Opinionated engineering and productivity skills for Codex.",
+  "author": {
+    "name": "Faisol Chehumar",
+    "url": "https://github.com/faisol-chehumar"
+  },
+  "homepage": "https://github.com/faisol-chehumar/9arm-skills",
+  "repository": "https://github.com/faisol-chehumar/9arm-skills",
+  "keywords": [
+    "codex",
+    "skills",
+    "debugging",
+    "review",
+    "engineering"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "9arm Skills",
+    "shortDescription": "Engineering workflow skills for Codex.",
+    "longDescription": "A small collection of Codex skills for debugging discipline, code review scrutiny, engineering post-mortems, and leadership-ready status updates.",
+    "developerName": "Faisol Chehumar",
+    "category": "Productivity",
+    "capabilities": [
+      "Skills"
+    ],
+    "websiteURL": "https://github.com/faisol-chehumar/9arm-skills",
+    "defaultPrompt": [
+      "Use debug-mantra to investigate this failure.",
+      "Use scrutinize to review this change.",
+      "Rewrite this engineering update for Slack."
+    ],
+    "brandColor": "#2563EB"
+  }
+}

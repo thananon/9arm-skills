@@ -7,7 +7,7 @@ description: Write the canonical engineering record of a fixed bug — root caus
 
 The canonical engineering record of a bug fix. Written **after** debugging lands a real fix, **for** other engineers (and future-you, who will have forgotten everything in 6 months). Code identifiers are welcome here — this is the artifact that lets the next person recover the mental model fast.
 
-For the up-the-org version of this same content, hand the finished post-mortem to [`management-talk`](../../productivity/management-talk/SKILL.md). They compose: post-mortem owns the engineering truth, management-talk reframes it for leadership.
+For the up-the-org version of this same content, hand the finished post-mortem to [`management-talk`](../management-talk/SKILL.md). They compose: post-mortem owns the engineering truth, management-talk reframes it for leadership.
 
 ## When to invoke
 
