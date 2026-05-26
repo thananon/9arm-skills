@@ -10,7 +10,7 @@ Add 9arm-skills to the `plugin` array in your `opencode.json` (global or project
 
 ```json
 {
-  "plugin": ["9arm-skills@git+https://github.com/0xsolid-pyh/9arm-skills.git"]
+  "plugin": ["9arm-skills@git+https://github.com/thananon/9arm-skills.git"]
 }
 ```
 
@@ -24,7 +24,7 @@ If you also use Superpowers, list both plugins:
 {
   "plugin": [
     "superpowers@git+https://github.com/obra/superpowers.git",
-    "9arm-skills@git+https://github.com/0xsolid-pyh/9arm-skills.git"
+    "9arm-skills@git+https://github.com/thananon/9arm-skills.git"
   ]
 }
 ```
@@ -54,7 +54,7 @@ To pin a specific version:
 
 ```json
 {
-  "plugin": ["9arm-skills@git+https://github.com/0xsolid-pyh/9arm-skills.git#v0.1.0"]
+  "plugin": ["9arm-skills@git+https://github.com/thananon/9arm-skills.git#v0.1.0"]
 }
 ```
 
@@ -81,4 +81,4 @@ When skills reference Claude Code tools:
 
 ## Getting Help
 
-- Report issues: https://github.com/0xsolid-pyh/9arm-skills/issues
+- Report issues: https://github.com/thananon/9arm-skills/issues
