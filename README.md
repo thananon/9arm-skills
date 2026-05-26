@@ -17,6 +17,14 @@ Each skill is its own directory containing a `SKILL.md` (with YAML frontmatter â
 
 ## Install
 
+### With `npx skills` (Recommended - works for every agent)
+
+```bash
+npx skills add thananon/9arm-skills
+```
+
+### Alternative - Bash script
+
 For my own dev loop â€” symlink every shippable skill into `~/.claude/skills/`:
 
 ```bash
