@@ -1,6 +1,6 @@
 # 9arm-skills
 
-Agent skills loaded by Claude Code.
+Agent skills for Claude Code and OpenCode.
 
 ## Layout
 
@@ -28,6 +28,35 @@ List every `SKILL.md` in the repo:
 ```bash
 ./scripts/list-skills.sh
 ```
+
+## OpenCode
+
+Tell OpenCode:
+
+```
+Fetch and follow instructions from https://raw.githubusercontent.com/thananon/9arm-skills/refs/heads/main/.opencode/INSTALL.md
+```
+
+Or add to `opencode.json`:
+
+```json
+{
+  "plugin": ["9arm-skills@git+https://github.com/thananon/9arm-skills.git"]
+}
+```
+
+### Using alongside Superpowers (Recommended)
+
+```json
+{
+  "plugin": [
+    "superpowers@git+https://github.com/obra/superpowers.git",
+    "9arm-skills@git+https://github.com/thananon/9arm-skills.git"
+  ]
+}
+```
+
+Superpowers provides the workflow (brainstorming → planning → TDD), while 9arm-skills provides domain-specific skills that agents can call during execution.
 
 ## Reference
 
