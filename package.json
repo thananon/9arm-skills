@@ -1,0 +1,6 @@
+{
+  "name": "9arm-skills",
+  "version": "0.1.0",
+  "type": "module",
+  "main": ".opencode/plugins/9arm-skills.js"
+}
