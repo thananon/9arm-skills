@@ -10,7 +10,7 @@ Add 9arm-skills to the `plugin` array in your `opencode.json` (global or project
 
 ```json
 {
-  "plugin": ["9arm-skills@git+https://github.com/YOUR-REPO/9arm-skills.git"]
+  "plugin": ["9arm-skills@git+https://github.com/0xsolid-pyh/9arm-skills.git"]
 }
 ```
 
@@ -24,12 +24,21 @@ If you also use Superpowers, list both plugins:
 {
   "plugin": [
     "superpowers@git+https://github.com/obra/superpowers.git",
-    "9arm-skills@git+https://github.com/YOUR-REPO/9arm-skills.git"
+    "9arm-skills@git+https://github.com/0xsolid-pyh/9arm-skills.git"
   ]
 }
 ```
 
 Superpowers provides the workflow (brainstorming → planning → TDD), while 9arm-skills provides domain-specific skills (debug-mantra, scrutinize, management-talk) that agents can call during execution.
+
+## Usage
+
+Use OpenCode's native `skill` tool:
+
+```
+use skill tool to list skills
+use skill tool to load 9arm-skills:debug-mantra
+```
 
 ## Verify
 
@@ -45,7 +54,7 @@ To pin a specific version:
 
 ```json
 {
-  "plugin": ["9arm-skills@git+https://github.com/YOUR-REPO/9arm-skills.git#v0.1.0"]
+  "plugin": ["9arm-skills@git+https://github.com/0xsolid-pyh/9arm-skills.git#v0.1.0"]
 }
 ```
 
@@ -69,3 +78,7 @@ When skills reference Claude Code tools:
 - `Task` tool with subagents → Use OpenCode's subagent system (@mention)
 - `Skill` tool → OpenCode's native `skill` tool
 - `Read`, `Write`, `Edit`, `Bash` → Your native tools
+
+## Getting Help
+
+- Report issues: https://github.com/0xsolid-pyh/9arm-skills/issues
