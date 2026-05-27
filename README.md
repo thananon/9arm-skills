@@ -1,6 +1,21 @@
 # 9arm-skills
 
-Agent skills loaded by Claude Code.
+<p><strong>Agent skills you can actually load — clone, customize, ship.</strong><br/>
+Engineering · Productivity · Debugging · Post-mortems · Code Review · Management Talk</p>
+
+<p>
+<strong>Works with Claude Code · Claude Desktop · Any SKILL.md-compatible agent</strong>
+</p>
+
+<p>
+<a href="https://github.com/thananon/9arm-skills/stargazers"><img src="https://img.shields.io/github/stars/thananon/9arm-skills?style=flat-square&color=FFD700" alt="Stars"></a>
+<a href="https://github.com/thananon/9arm-skills/network/members"><img src="https://img.shields.io/github/forks/thananon/9arm-skills?style=flat-square&color=4FC3F7" alt="Forks"></a>
+<a href="https://github.com/thananon/9arm-skills/graphs/contributors"><img src="https://img.shields.io/github/contributors/thananon/9arm-skills?style=flat-square&color=22C55E" alt="Contributors"></a>
+<a href="LICENSE"><img src="https://img.shields.io/github/license/thananon/9arm-skills?style=flat-square&color=8B5CF6" alt="License"></a>
+<img src="https://img.shields.io/github/last-commit/thananon/9arm-skills?style=flat-square&color=F97316" alt="Last Commit">
+</p>
+
+---
 
 ## Layout
 
@@ -17,13 +32,13 @@ Each skill is its own directory containing a `SKILL.md` (with YAML frontmatter �
 
 ## Install
 
-### With `npx skills` (Recommended - works for every agent)
+### With `npx skills` (Recommended — works for every agent)
 
 ```bash
 npx skills add thananon/9arm-skills
 ```
 
-### Alternative - Bash script
+### Alternative — Bash script
 
 For my own dev loop — symlink every shippable skill into `~/.claude/skills/`:
 
